@@ -1,0 +1,56 @@
+/* Single Testimonial Design */
+.content {
+  padding-top: 30px;
+}
+/* Testimonials */
+.gb_testimonials blockquote {
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify;
+  
+  /*Borders - (Optional)*/
+  border-right: 4px solid #c76c0c;
+  
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+.gb_testimonials .carousel-info img {
+  border: 3px solid #C76C0c;
+  border-radius: 150px !important;
+  height: 75px;
+  padding: 3px;
+  width: 75px;
+}
+.gb_testimonials .carousel-info {
+  overflow: hidden;
+  margin: 5px 0 15px 0;
+}
+.gb_testimonials .carousel-info img {
+  margin-right: 15px;
+}
+.gb_testimonials .carousel-info span {
+  display: block;
+}
+.gb_testimonials span.testimonials-name {
+  color: #e6400c;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 10px 0 2px;
+}
+.gb_testimonials span.testimonials-post {
+  color: #656565;
+  font-size: 12px;
+}
+/* Sliding Multiple Testimonial Design */
+
